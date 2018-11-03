@@ -1,0 +1,310 @@
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 2px;
+    z-index: 1;
+    padding-right: 18%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a.regular {
+    float: left;
+    color: #777777;
+    text-align: center;
+    padding: 0px 20px;
+    margin-top: 35px;
+    margin-bottom: 35px; 
+    text-decoration: none;
+    font-size: 17px;
+    border-right: 1px solid #cccccc;  
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+}
+
+.topnav a.regular:last-child {
+    border-right: none;
+    
+}
+
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4aaaa5;
+    top: 0;
+    color: white;
+    float: left; 
+    text-align: center;
+    padding: 28px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 35%;
+    font-size: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+}
+/* Add a color to the active/current link */
+@media screen and (max-width: 992px) {
+.topnav a.active {
+    background-color: #4aaaa5;
+    top: 0;
+    color: white;
+    float: left; 
+    text-align: center;
+    padding: 28px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 20%;
+    font-size: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .topnav a.active {
+        background-color: #4aaaa5;
+        top: 0;
+        color: white;
+        float: left; 
+        text-align: center;
+        padding: 28px 30px;
+        text-decoration: none;
+        font-size: 18px;
+        margin-left: 5%;
+        margin-right: 2%;
+        font-size: 30px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .topnav {
+        background-color: white;
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        width: 100%;
+        border-bottom-style: solid;
+        border-bottom-color: #cccccc;
+        border-bottom-width: 2px;
+        z-index: 1;
+    }
+    
+    .topnav a.active {
+        background-color: #4aaaa5;
+        width: 100%;
+        color: white;
+        float: left; 
+        text-align: center;
+        padding: auto;
+        text-decoration: none;
+        font-size: 18px;
+        margin-left: 5%;
+        font-size: 30px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-weight: bold;
+    }
+
+    .topnav a.regular {
+        float: left;
+        color: #777777;
+        text-align: center;
+        padding: 0px 20px;
+        margin-top: 35px;
+        margin-bottom: 35px; 
+        text-decoration: none;
+        font-size: 17px;
+        border-right: 1px solid #cccccc;  
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    }
+    
+    .topnav a.regular:last-child {
+        border-right: none;
+        
+    }
+
+
+}
+
+
+img {
+    padding-right: 25px;
+    width: 250px;
+}
+
+body {
+    background-image: url(../images/gravel.png); 
+}
+
+
+
+#container {
+    width: 650px;
+    background:#ffffff;
+    overflow: hidden;
+    margin-top: 135px;
+    margin-bottom: 120px;
+    margin-left: 5%;/*210px;*/
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 50px; 
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 2px;
+}
+
+@media screen and (max-width: 992px){
+    #container {
+        width: 650px;
+        background:#ffffff;
+        overflow: hidden;
+        margin-top: 135px;
+        margin-bottom: 120px;
+        margin-left: 5%;/*210px;*/
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 50px; 
+        border-style: solid;
+        border-color: #dddddd;
+        border-width: 2px;
+    }    
+} 
+
+@media screen and (max-width: 640px){
+    #container {
+        width: auto;
+        background:#ffffff;
+        overflow: hidden;
+        margin-top: 3%;
+        margin-bottom: 120px;
+        margin-left: 3%;/*210px;*/
+        margin-right: 3%;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 50px; 
+        border-style: solid;
+        border-color: #dddddd;
+        border-width: 2px;
+    }    
+} 
+
+span{
+    display:inline-block;
+    border-bottom:3px solid #e0dfdf;
+    padding-top: 15px;
+    padding-bottom:2px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.heading {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+@media screen and (max-width: 640px){
+.heading {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    text-align: center;
+}
+}
+
+.font {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 2.0;
+}
+
+.footer {
+    background-color: #666666;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top-style: solid;
+    border-top-color:  #4aaaa5;
+    border-top-width: 8px;
+    text-align: center;
+    color: lightgrey;
+    font-size: 12px;
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+
+.footer:after{
+    content:"Copyright \00a9";
+}
+
+.picFormat {
+    float: left;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+.picTitle {
+    position: relative;
+    background-color: #4aaaa5; 
+    margin-top: 144px;
+    margin-right: 40px;
+    margin-bottom: 45px;
+    color: black;
+    height: 40px;
+    width: 270px; 
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.picTitle p{
+    position: absolute;
+    text-align: center;
+    width: 100%; 
+}
+
+.images {
+    height: 200px;
+    width: 270px;
+}
+
+@media screen and (max-width: 640px){
+    .imgSmall{
+        width: 100%;
+    }
+}
+.inputF {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px; 
+    line-height: 30px;
+    border-color: lightgray;
+}
+
+.inputF:hover {
+    background-color: #dddddd;
+}
+
+textarea {
+        width: 100%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        resize: none;
+        margin-top: 5px;
+        
+    }
